@@ -31,11 +31,11 @@ const CartContainer = () => {
         <hr />
         <div className="cart-total">
           <h4>
-            Total <span>{total}</span>
+            Total <span>${total}</span>
           </h4>
         </div>
         <button className="btn clear-btn" onClick={() => dispatch(clearCart())}>
-          Claer All
+          Clear All
         </button>
       </footer>
     </section>
